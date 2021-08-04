@@ -5,8 +5,6 @@ chrome.storage.local.get(["panoptoLink"], (data) => {
     if (data.panoptoLink !== undefined) {
         chrome.storage.local.remove(["panoptoLink"]);
         chrome.storage.local.get(["panoptoTitle"], (title) => {
-            console.log(data);
-            console.log(title);
             chrome.storage.local.remove(["panoptoTitle"]);
             downloadElement.innerHTML = `
             <button type="button" id="button">
