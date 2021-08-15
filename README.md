@@ -1,4 +1,4 @@
-# PanoptoDownloader
+## PanoptoDownloader
 A Chrome extension that allows you to download Panopto videos.
 
 Installation instructions:
@@ -12,3 +12,6 @@ Installation instructions:
 4. Turn on "Developer mode" at the top right.
 
 5. Select "Load Unpacked" and select the extension folder.
+
+
+#### Created by Etienne Richart (github.com/etiennerichart) and Kevin Chen (github.com/kchen01)
